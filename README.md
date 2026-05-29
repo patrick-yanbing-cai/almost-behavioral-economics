@@ -1,6 +1,6 @@
-# Project Yuki
+# Almost Behavioral Economics
 
-Project Yuki is the internal codename for a bilingual open learning project in behavioral economics. The public project name is not finalized.
+Almost Behavioral Economics is a bilingual open learning project in behavioral economics. Project Yuki remains the internal codename.
 
 This repository currently contains infrastructure only: a Quarto website skeleton, bilingual page structure, placeholder Chapter 1 notebooks, shared references, and a minimal Python package namespace.
 

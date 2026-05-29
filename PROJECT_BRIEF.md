@@ -1,16 +1,16 @@
 # PROJECT_BRIEF.md
 
-# Project Yuki Engineering Brief
+# Almost Behavioral Economics Engineering Brief
 
 > Internal codename: **Yuki**
-> Public project name: **to be decided**
+> Public project name: **Almost Behavioral Economics**
 > Current working identity: **an open behavioral economics learning project**
 
 ---
 
 ## 1. Project Status
 
-This document summarizes the current engineering and planning decisions for Project Yuki.
+This document summarizes the current engineering and planning decisions for Almost Behavioral Economics.
 
 The project is moving from conceptual planning to implementation. The next working environment will be Codex or a similar code-oriented agent. This brief should be treated as the current source of truth for repository setup, website structure, bilingual architecture, release planning, and agent collaboration.
 
@@ -20,7 +20,7 @@ Specific notebook content is intentionally not finalized here. The first content
 
 ## 2. Core Project Identity
 
-Project Yuki is an open learning project in behavioral economics.
+Almost Behavioral Economics is an open learning project in behavioral economics.
 
 It is not primarily a computational economics project. Code, notebooks, visualizations, and numerical experiments are used only when they help readers understand theoretical ideas, model failures, or conceptual transitions.
 
@@ -51,24 +51,13 @@ This can be used for internal repo naming, Trello/GitHub project tracking, and a
 
 ### Public name
 
-The public name is not yet finalized.
-
-The public name should eventually be:
-
-* short;
-* searchable;
-* clear;
-* similar in simplicity to names like QuantEcon;
-* directly associated with behavioral economics or open learning.
-
-Possible future candidates:
+The public project name is:
 
 ```text
-Open Behavioral Economics
-OpenBE
-Behavioral Economics: An Open Learning Project
-A Field Guide to Behavioral Economics
+Almost Behavioral Economics
 ```
+
+Yuki remains the internal codename for repo planning and agent workflow references.
 
 ### Preface / manifesto title
 
@@ -352,7 +341,7 @@ Use this as the first-stage homepage structure.
 English:
 
 ```markdown
-# Open Behavioral Economics
+# Almost Behavioral Economics
 
 A bilingual open learning project for modern behavioral economics.
 
@@ -362,7 +351,7 @@ This project helps economics students understand how behavioral economics revise
 Chinese:
 
 ```markdown
-# 开放行为经济学
+# Almost Behavioral Economics
 
 一个面向现代行为经济学的中英双语开源学习项目。
 
@@ -743,8 +732,8 @@ Example format:
 | Rabin calibration theorem | Rabin (2000) | Core theoretical result |
 | Small-stakes risk aversion discussion | Handbook of Behavioral Economics, Chapter 1 | Interpretive frame |
 | Allais paradox | Allais (1953) | Choice anomaly |
-| Interactive calibration experiment | Project Yuki original implementation | Teaching experiment |
-| Figures and code | Project Yuki original implementation | Visualization and computation |
+| Interactive calibration experiment | Almost Behavioral Economics original implementation | Teaching experiment |
+| Figures and code | Almost Behavioral Economics original implementation | Visualization and computation |
 ```
 
 ---
@@ -969,12 +958,6 @@ Are license statements clear?
 ## 21. Open Decisions
 
 The following issues remain unresolved.
-
-### Public project name
-
-Yuki is internal only.
-
-Need a short public name later.
 
 ### Website visual design
 
@@ -1233,7 +1216,7 @@ license setup
 Do not do the following in the first setup pass:
 
 ```text
-Do not finalize the public project name.
+Do not revisit the public project name.
 Do not design a logo.
 Do not write full notebook content.
 Do not over-engineer Python package structure.

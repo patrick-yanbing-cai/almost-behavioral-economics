@@ -1,18 +1,44 @@
 ---
-title: "Project Yuki"
+title: "Almost Behavioral Economics"
 ---
 
-# Project Yuki
+# Almost Behavioral Economics
 
-Internal codename: Yuki. The public project name is not finalized.
+A bilingual open learning project for modern behavioral economics.
 
-This is the English learning-site entry point. This page is a structural placeholder; the public introduction will be drafted in a later content pass.
+This project helps economics students understand how behavioral economics revises, extends, and challenges standard models of choice.
 
 ## Start Here
 
-- [Chapter 1 overview](ch01_overview.qmd)
+- [Start with Chapter 1](ch01_overview.qmd)
+- [View on GitHub](https://github.com/patrick-yanbing-cai/almost-behavioral-economics)
 - [中文版本](../zh/)
+
+## Who is this for?
+
+This project is designed for economics students who want to move beyond textbook-level introductions and understand behavioral economics through structured narratives, models, and guided experiments.
+
+## Current Module: Chapter 1
+
+Reference-Dependent Preferences
+
+1. [The Failure of Expected Utility](notebooks/ch01_1a_expected_utility_failure.ipynb)
+2. [Building Reference Points](notebooks/ch01_1b_kt_exogenous_reference_points.ipynb)
+3. [Endogenizing Reference Points](notebooks/ch01_1c_kr_expectations_news_utility.ipynb)
+4. [Probability Weighting](notebooks/ch01_1d_probability_weighting.ipynb)
+
+## How to Use This Project
+
+You can use this project in three ways:
+
+1. Read the materials online as structured lecture notes.
+2. Run selected experiments in Google Colab when links are available.
+3. Clone the GitHub repository and reproduce the notebooks locally.
+
+## How This Project Is Produced
+
+This project uses a human-led, agent-assisted workflow. Human editors control the theoretical structure, narrative, and final review. AI agents assist with drafting, code implementation, translation, review, and technical maintenance.
 
 ## Current Status
 
-Infrastructure initialization is in progress; substantive learning content has not been written yet.
+The site skeleton and Chapter 1 placeholders are in place. Substantive notebook content will be added in later content passes.

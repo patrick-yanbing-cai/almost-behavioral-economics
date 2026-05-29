@@ -1,3 +1,3 @@
-"""Minimal package namespace for Project Yuki teaching helpers."""
+"""Minimal package namespace for Almost Behavioral Economics teaching helpers."""
 
 __all__: list[str] = []

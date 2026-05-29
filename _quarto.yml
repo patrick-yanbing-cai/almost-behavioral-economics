@@ -6,7 +6,7 @@ project:
     - en/
 
 website:
-  title: "Project Yuki"
+  title: "Almost Behavioral Economics"
   navbar:
     right:
       - text: "中文"
@@ -14,7 +14,7 @@ website:
       - text: "English"
         href: en/
       - text: "GitHub"
-        href: https://github.com/
+        href: https://github.com/patrick-yanbing-cai/almost-behavioral-economics
   sidebar:
     contents:
       - section: "中文"

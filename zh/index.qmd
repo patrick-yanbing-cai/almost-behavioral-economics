@@ -1,18 +1,44 @@
 ---
-title: "Project Yuki"
+title: "Almost Behavioral Economics"
 ---
 
-# Project Yuki
+# Almost Behavioral Economics
 
-内部代号：Yuki。公开项目名称尚未确定。
+一个面向现代行为经济学的中英双语开源学习项目。
 
-这是中文版本的学习网站入口。当前页面仅用于搭建网站结构，正式导言将在后续内容阶段补充。
+本项目帮助经济学学习者理解行为经济学如何修正、扩展并挑战标准选择模型。
 
 ## 从哪里开始
 
-- [第 1 章概览](ch01_overview.qmd)
+- [从第 1 章开始](ch01_overview.qmd)
+- [查看 GitHub](https://github.com/patrick-yanbing-cai/almost-behavioral-economics)
 - [English version](../en/)
+
+## 这个项目适合谁？
+
+本项目面向希望超越教材式简介、系统理解行为经济学理论推进的经济学学习者。读者最好具备基础微观经济学、基本概率知识，并愿意阅读模型、例子和少量代码实验。
+
+## 当前模块：第 1 章
+
+参考依赖偏好
+
+1. [期望效用的局限](notebooks/ch01_1a_expected_utility_failure.ipynb)
+2. [参考点的建立](notebooks/ch01_1b_kt_exogenous_reference_points.ipynb)
+3. [参考点的内生化](notebooks/ch01_1c_kr_expectations_news_utility.ipynb)
+4. [概率加权](notebooks/ch01_1d_probability_weighting.ipynb)
+
+## 如何使用这个项目
+
+你可以用三种方式使用本项目：
+
+1. 直接在线阅读结构化讲义；
+2. 在提供链接后，使用 Google Colab 运行部分实验；
+3. 克隆 GitHub 仓库，在本地完整复现笔记本。
+
+## 项目如何生产
+
+本项目采用 human-led, agent-assisted 的工作方式。人类作者负责理论结构、叙事判断和最终审稿；AI agents 协助完成初稿、代码实现、翻译、审稿和工程维护。
 
 ## 当前状态
 
-基础设施初始化中；正文内容暂未编写。
+网站骨架和第 1 章占位页已经建立。实质性笔记本内容将在后续内容阶段补充。

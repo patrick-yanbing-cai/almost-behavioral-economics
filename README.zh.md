@@ -1,6 +1,6 @@
-# Project Yuki
+# Almost Behavioral Economics
 
-Project Yuki 是本项目的内部代号。公开项目名称尚未确定。
+Almost Behavioral Economics 是一个中英双语的行为经济学开源学习项目。Project Yuki 保留为内部代号。
 
 本仓库当前只包含基础设施：Quarto 网站骨架、中英文页面结构、第 1 章占位笔记本、共享参考文献文件，以及最小 Python 包结构。
 
