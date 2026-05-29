@@ -1,0 +1,14 @@
+---
+title: "第 1 章概览"
+---
+
+# 第 1 章概览
+
+本页是第 1 章概览占位页。正式内容将在后续写作阶段补充。
+
+## 笔记本
+
+- [1a. 期望效用的局限](notebooks/ch01_1a_expected_utility_failure.ipynb)
+- [1b. 参考点的建立](notebooks/ch01_1b_kt_exogenous_reference_points.ipynb)
+- [1c. 参考点的内生化](notebooks/ch01_1c_kr_expectations_news_utility.ipynb)
+- [1d. 概率加权](notebooks/ch01_1d_probability_weighting.ipynb)

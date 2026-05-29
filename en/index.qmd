@@ -1,0 +1,18 @@
+---
+title: "Project Yuki"
+---
+
+# Project Yuki
+
+Internal codename: Yuki. The public project name is not finalized.
+
+This is the English learning-site entry point. This page is a structural placeholder; the public introduction will be drafted in a later content pass.
+
+## Start Here
+
+- [Chapter 1 overview](ch01_overview.qmd)
+- [中文版本](../zh/)
+
+## Current Status
+
+Infrastructure initialization is in progress; substantive learning content has not been written yet.

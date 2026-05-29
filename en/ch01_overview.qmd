@@ -1,0 +1,14 @@
+---
+title: "Chapter 1 Overview"
+---
+
+# Chapter 1 Overview
+
+This is a placeholder overview page for Chapter 1. The substantive chapter introduction will be written in a later content pass.
+
+## Notebooks
+
+- [1a. The Failure of Expected Utility](notebooks/ch01_1a_expected_utility_failure.ipynb)
+- [1b. Building Reference Points](notebooks/ch01_1b_kt_exogenous_reference_points.ipynb)
+- [1c. Endogenizing Reference Points](notebooks/ch01_1c_kr_expectations_news_utility.ipynb)
+- [1d. Probability Weighting](notebooks/ch01_1d_probability_weighting.ipynb)

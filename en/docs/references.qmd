@@ -1,0 +1,10 @@
+---
+title: "References"
+---
+
+# References
+
+This page uses the shared `references.bib` file. Formal citations will be added during content drafting.
+
+::: {#refs}
+:::

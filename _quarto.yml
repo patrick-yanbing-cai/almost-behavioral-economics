@@ -1,0 +1,71 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - zh/
+    - en/
+
+website:
+  title: "Project Yuki"
+  navbar:
+    right:
+      - text: "中文"
+        href: zh/
+      - text: "English"
+        href: en/
+      - text: "GitHub"
+        href: https://github.com/
+  sidebar:
+    contents:
+      - section: "中文"
+        contents:
+          - text: "首页"
+            href: zh/
+          - section: "第 1 章：参考依赖偏好"
+            contents:
+              - text: "概览"
+                href: zh/ch01_overview.qmd
+              - text: "1a. 期望效用的局限"
+                href: zh/notebooks/ch01_1a_expected_utility_failure.ipynb
+              - text: "1b. 参考点的建立"
+                href: zh/notebooks/ch01_1b_kt_exogenous_reference_points.ipynb
+              - text: "1c. 参考点的内生化"
+                href: zh/notebooks/ch01_1c_kr_expectations_news_utility.ipynb
+              - text: "1d. 概率加权"
+                href: zh/notebooks/ch01_1d_probability_weighting.ipynb
+          - text: "术语表"
+            href: zh/docs/glossary.qmd
+          - text: "参考文献"
+            href: zh/docs/references.qmd
+          - text: "生产协议"
+            href: zh/docs/production_protocol.qmd
+      - section: "English"
+        contents:
+          - text: "Home"
+            href: en/
+          - section: "Chapter 1: Reference-Dependent Preferences"
+            contents:
+              - text: "Overview"
+                href: en/ch01_overview.qmd
+              - text: "1a. The Failure of Expected Utility"
+                href: en/notebooks/ch01_1a_expected_utility_failure.ipynb
+              - text: "1b. Building Reference Points"
+                href: en/notebooks/ch01_1b_kt_exogenous_reference_points.ipynb
+              - text: "1c. Endogenizing Reference Points"
+                href: en/notebooks/ch01_1c_kr_expectations_news_utility.ipynb
+              - text: "1d. Probability Weighting"
+                href: en/notebooks/ch01_1d_probability_weighting.ipynb
+          - text: "Glossary"
+            href: en/docs/glossary.qmd
+          - text: "References"
+            href: en/docs/references.qmd
+          - text: "Production Protocol"
+            href: en/docs/production_protocol.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    link-external-newwindow: true
