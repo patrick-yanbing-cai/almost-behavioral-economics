@@ -4,11 +4,35 @@ title: "第 1 章概览"
 
 # 第 1 章概览
 
-本页是第 1 章概览占位页。正式内容将在后续写作阶段补充。
+本页将介绍第 1 章的主题：参考依赖偏好。
 
-## 笔记本
+## 为什么讲这个主题
 
-- [1a. 期望效用的局限](notebooks/ch01_1a_expected_utility_failure.ipynb)
-- [1b. 参考点的建立](notebooks/ch01_1b_kt_exogenous_reference_points.ipynb)
-- [1c. 参考点的内生化](notebooks/ch01_1c_kr_expectations_news_utility.ipynb)
-- [1d. 概率加权](notebooks/ch01_1d_probability_weighting.ipynb)
+本节将说明为什么参考依赖是学习现代行为经济学的一个有用起点。
+
+## 学习目标
+
+读完本章后，读者应该能够：
+
+- 理解为什么需要从标准期望效用模型继续推进；
+- 描述参考点在收益和损失评价中的作用；
+- 比较参考点形成的不同方式；
+- 看出概率加权如何延伸本章对风险选择的讨论。
+
+## 四个部分如何推进
+
+### [1a. 期望效用的局限](notebooks/ch01_1a_expected_utility_failure.ipynb)
+
+这一部分将说明标准期望效用框架的局限。
+
+### [1b. 参考点的建立](notebooks/ch01_1b_kt_exogenous_reference_points.ipynb)
+
+这一部分将引入参考点，并用它来组织对收益和损失的理解。
+
+### [1c. 参考点的内生化](notebooks/ch01_1c_kr_expectations_news_utility.ipynb)
+
+这一部分将说明参考点如何受到预期的影响。
+
+### [1d. 概率加权](notebooks/ch01_1d_probability_weighting.ipynb)
+
+这一部分将在本章对风险选择的讨论中加入概率加权。

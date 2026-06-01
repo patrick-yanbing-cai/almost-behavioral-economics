@@ -4,11 +4,35 @@ title: "Chapter 1 Overview"
 
 # Chapter 1 Overview
 
-This is a placeholder overview page for Chapter 1. The substantive chapter introduction will be written in a later content pass.
+This page will introduce the theme of Chapter 1: reference-dependent preferences.
 
-## Notebooks
+## Why This Topic
 
-- [1a. The Failure of Expected Utility](notebooks/ch01_1a_expected_utility_failure.ipynb)
-- [1b. Building Reference Points](notebooks/ch01_1b_kt_exogenous_reference_points.ipynb)
-- [1c. Endogenizing Reference Points](notebooks/ch01_1c_kr_expectations_news_utility.ipynb)
-- [1d. Probability Weighting](notebooks/ch01_1d_probability_weighting.ipynb)
+This section will explain why reference dependence is a useful starting point for studying modern behavioral economics.
+
+## Learning Goals
+
+By the end of this chapter, readers should be able to:
+
+- understand the motivation for moving beyond the standard expected-utility model;
+- describe the role of reference points in evaluating gains and losses;
+- compare different ways reference points can be formed;
+- see how probability weighting extends the chapter's discussion of risky choice.
+
+## How the Four Parts Progress
+
+### [1a. The Failure of Expected Utility](notebooks/ch01_1a_expected_utility_failure.ipynb)
+
+This part will set up the limits of the standard expected-utility framework.
+
+### [1b. Building Reference Points](notebooks/ch01_1b_kt_exogenous_reference_points.ipynb)
+
+This part will introduce reference points as a way to organize gains and losses.
+
+### [1c. Endogenizing Reference Points](notebooks/ch01_1c_kr_expectations_news_utility.ipynb)
+
+This part will show how reference points can depend on expectations.
+
+### [1d. Probability Weighting](notebooks/ch01_1d_probability_weighting.ipynb)
+
+This part will add probability weighting to the chapter's treatment of risky choice.
