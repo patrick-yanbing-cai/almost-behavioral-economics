@@ -63,6 +63,6 @@ Use focused changes. Infrastructure, content, translation, and review work shoul
 
 ## License
 
-Unless otherwise noted, educational content in this repository is licensed under CC BY-SA 4.0. See `LICENSE-CONTENT.md`.
+Unless otherwise noted, educational content in this repository is licensed under CC BY-SA 4.0. See `CONTENT-NOTICE.md`.
 
 All code in this repository is licensed under the MIT License. See `LICENSE`.
