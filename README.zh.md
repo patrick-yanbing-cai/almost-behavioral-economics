@@ -63,6 +63,6 @@ jupyter notebook
 
 ## 许可证
 
-除非另有说明，本仓库中的教育内容使用 CC BY-SA 4.0 许可。见 `LICENSE-CONTENT.md`。
+除非另有说明，本仓库中的教育内容使用 CC BY-SA 4.0 许可。见 `CONTENT-NOTICE.md`。
 
 本仓库中的代码使用 MIT License。见 `LICENSE`。
