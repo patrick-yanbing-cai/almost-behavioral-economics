@@ -1,5 +1,5 @@
 ---
-title: "Almost Behavioral Economics"
+pagetitle: "Almost Behavioral Economics"
 ---
 
 # Almost Behavioral Economics

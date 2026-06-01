@@ -1,0 +1,14 @@
+---
+pagetitle: "Almost Behavioral Economics"
+---
+
+# Almost Behavioral Economics
+
+A bilingual open learning project for modern behavioral economics.
+
+一个面向现代行为经济学的中英双语开源学习项目。
+
+## Choose a language / 选择语言
+
+- [English](en/)
+- [中文](zh/)
