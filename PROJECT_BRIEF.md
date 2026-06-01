@@ -541,7 +541,9 @@ People may not process probabilities linearly. Probability weighting explains sy
 
 Each notebook should have its own main storyline.
 
-Each notebook should end by pointing to the opening question of the next notebook.
+Each notebook should be readable on its own.
+
+Related links should be chosen by conceptual relevance, not by mechanical sequence.
 
 ---
 
@@ -904,7 +906,7 @@ Does every section serve the main storyline?
 Are there unnecessary background digressions?
 Can a reader state the notebook’s main conclusion after reading?
 Is there a clear aha moment?
-Does the ending naturally introduce the next notebook?
+Does the ending point to genuinely related material without making the notebook dependent on it?
 ```
 
 ### Code check
@@ -975,25 +977,27 @@ mobile readability
 
 ### Notebook template
 
-Need to decide the exact notebook section structure.
+Use the canonical template in `NOTEBOOK_TEMPLATE.md`.
 
-Possible components:
+Standard English section structure:
 
 ```text
-title
-abstract
-learning goals
-prerequisites
-opening problem
-main narrative
-model
-experiment
-summary
-glossary
-source map
-references
-next notebook
-Colab badge
+Title
+Colab support marker
+Abstract
+Learning Goals
+Prerequisites
+Opening Problem
+Baseline Model
+Key Tension
+Core Idea
+Guided Example / Experiment
+What This Teaches Us
+Key Takeaways
+Glossary
+Source Map
+References
+Related
 ```
 
 ### Chapter overview template

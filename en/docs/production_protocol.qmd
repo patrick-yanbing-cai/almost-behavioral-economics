@@ -4,4 +4,33 @@ title: "Production Protocol"
 
 # Production Protocol
 
-Placeholder page. The production workflow and review checklist will be maintained later.
+This page records production rules for writing and revising notebooks.
+
+The canonical notebook scaffold is maintained in `NOTEBOOK_TEMPLATE.md` at the repository root. Use that document before creating or revising any notebook in `en/notebooks/` or `zh/notebooks/`.
+
+## Notebook Template Rules
+
+- Keep English and Chinese notebooks structurally aligned, but write headings and instructions naturally in each language.
+- Each notebook should have one clear main question and its own main storyline.
+- Each notebook should be readable on its own. Do not require the reader to have read the previous notebook or to continue immediately to the next notebook.
+- Use the fixed top-level section order from `NOTEBOOK_TEMPLATE.md`.
+- Add local subsections only when they serve the notebook's main question.
+- Use `Related` for conceptually relevant links. Do not add a next-notebook link unless it is genuinely relevant.
+- Do not add standalone exercises, check-your-understanding sections, implementation notes, code notes, or author-maintenance sections to learner notebooks.
+
+## Source Map Rules
+
+Each notebook must include a structured source map. The source map should identify literature sources, adapted examples, original examples, original numerical exercises, figures, code, widgets, simulations, and teaching design when relevant.
+
+Use these source roles:
+
+| Role | Meaning |
+|---|---|
+| core | Required for the notebook's main storyline |
+| support | Helps explain an example, step, or transition |
+| extension | Points to related material without expanding it here |
+| original | Project-generated teaching material |
+
+## References Rule
+
+Notebook references should list only sources cited, mentioned, or used in that notebook. Do not add background readings that are not used in the notebook.
