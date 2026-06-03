@@ -16,28 +16,62 @@ Editorial placeholder.
 
 ## Core Question
 
-Editorial placeholder.
-
-- Approved core question: TBD by the human editor.
-- Decision status: not approved.
+- Proposed core question: What does expected utility provide as a baseline
+  model of risky choice, and what do its failures reveal about the limits of
+  explaining risky choice through final wealth?
+- Decision status: proposed from human-editor discussion; pending PR review.
 
 ## Storyline
 
-Editorial placeholder.
-
-- Main 1a storyline: TBD by the human editor.
-- Alternative storylines to exclude or defer: TBD by the human editor.
-- Decision status: not approved.
+- Main 1a storyline: Notebook 1a first introduces expected utility as the
+  baseline model that turns risky choice into the evaluation of lotteries
+  through expected utility over final wealth. It then shows that this baseline
+  is powerful but too coarse for several central patterns of risky choice.
+  Small-stakes risk aversion reveals that final-wealth curvature cannot
+  plausibly explain ordinary local risk attitudes. Samuelson's aggregation
+  paradox shows that the unit in which a risk is evaluated, isolated gamble
+  versus aggregated sequence, matters for choice. The common consequence and
+  common ratio versions of the Allais paradox show that EU's independence
+  structure fails in important lottery comparisons. The notebook ends by
+  extracting model-design desiderata, especially the need for a local
+  gains/losses perspective around a reference point, without building
+  reference-dependent preferences inside 1a.
+- Core failure sequence:
+  1. Expected utility baseline: explain what EU is, where it comes from, and
+     what problem it solves, but keep this setup short.
+  2. Small-stakes risk aversion: use Rabin-style calibration as the main
+     diagnostic that final-wealth curvature is the wrong explanation for
+     ordinary local risk attitudes.
+  3. Samuelson aggregation paradox: emphasize that the evaluation unit matters;
+     the same gamble can be evaluated differently when framed as one isolated
+     risk versus an aggregated or repeated sequence.
+  4. Allais paradoxes: treat common consequence and common ratio effects as
+     evidence that EU's independence structure fails in lottery comparisons.
+- Decision status: proposed from human-editor discussion; pending PR review.
 
 ## Content Boundaries
 
-Editorial placeholder.
-
-- Included in 1a: TBD by the human editor.
-- Deferred to 1b: TBD by the human editor.
-- Deferred to 1c: TBD by the human editor.
-- Deferred to 1d: TBD by the human editor.
-- Non-goals: TBD by the human editor.
+- Included in 1a:
+  - A short setup of expected utility as the baseline model of risky choice.
+  - Small-stakes risk aversion as the first core failure.
+  - Samuelson's aggregation paradox as the second core failure.
+  - The common consequence and common ratio versions of the Allais paradox as
+    the third core failure family.
+  - A concise synthesis of what each failure notices about the limits of
+    final-wealth EU.
+- Alternative EU failures: Other failures may be briefly oriented in the
+  architecture, but they should not become teaching units unless they directly
+  clarify one of the three core diagnostics above.
+- Deferred to 1b: Building reference-dependent preferences, exogenous
+  reference points, and loss aversion as a model.
+- Deferred to 1c: Expectations-based or endogenous reference points.
+- Deferred to 1d: Probability weighting and related detailed probability-side
+  explanations.
+- Non-goals:
+  - Do not write learner-facing 1a notebook prose in this milestone.
+  - Do not turn 1a into a broad survey of non-EU models.
+  - Do not build prospect theory or cumulative prospect theory inside 1a.
+  - Do not make Allais a bridge to probability weighting in 1a.
 
 ## Source Set
 
@@ -91,8 +125,13 @@ Editorial placeholder.
 
 ## 1a to 1b Transition
 
-Editorial placeholder.
-
-- How 1a should end: TBD by the human editor.
-- What requirements 1a should create for 1b: TBD by the human editor.
-- What 1a must not pre-emptively build: TBD by the human editor.
+- How 1a should end: 1a ends by extracting desiderata for the next model, not
+  by constructing that model. The main ending should emphasize that
+  final-wealth evaluation is too coarse for local risky-choice patterns.
+- What requirements 1a should create for 1b: The next model should let outcomes
+  be evaluated locally as gains and losses around a reference point, and should
+  make room for loss aversion without forcing implausible global wealth
+  curvature.
+- What 1a must not pre-emptively build: 1a must not build reference-dependent
+  preferences, exogenous reference points, expectations-based reference points,
+  or probability weighting.
