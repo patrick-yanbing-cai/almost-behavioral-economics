@@ -33,9 +33,9 @@ Editorial placeholder.
   versus aggregated sequence, matters for choice. The common consequence and
   common ratio versions of the Allais paradox show that EU's independence
   structure fails in important lottery comparisons. The notebook ends by
-  extracting model-design desiderata, especially the need for a local
-  gains/losses perspective around a reference point, without building
-  reference-dependent preferences inside 1a.
+  organizing these failures as unresolved diagnoses, with at most a brief
+  roadmap sentence noting that later notebooks will ask how alternative models
+  address these problems.
 - Core failure sequence:
   1. Expected utility baseline: explain what EU is, where it comes from, and
      what problem it solves, but keep this setup short.
@@ -45,8 +45,11 @@ Editorial placeholder.
   3. Samuelson aggregation paradox: emphasize that the evaluation unit matters;
      the same gamble can be evaluated differently when framed as one isolated
      risk versus an aggregated or repeated sequence.
-  4. Allais paradoxes: treat common consequence and common ratio effects as
-     evidence that EU's independence structure fails in lottery comparisons.
+  4. Allais paradoxes: treat Allais as the third core failure family, parallel
+     to small-stakes risk aversion and Samuelson aggregation. Its common
+     consequence and common ratio versions should sit one level below the
+     Allais family and should show that EU's independence structure fails in
+     important lottery comparisons.
 - Decision status: proposed from human-editor discussion; pending PR review.
 
 ## Content Boundaries
@@ -58,10 +61,11 @@ Editorial placeholder.
   - The common consequence and common ratio versions of the Allais paradox as
     the third core failure family.
   - A concise synthesis of what each failure notices about the limits of
-    final-wealth EU.
-- Alternative EU failures: Other failures may be briefly oriented in the
-  architecture, but they should not become teaching units unless they directly
-  clarify one of the three core diagnostics above.
+    expected utility.
+- Alternative EU failures: Do not name or open additional EU-failure topics in
+  the current 1a architecture. Future versions may add them if the human editor
+  reopens the boundary decision, but the current beta path should use only the
+  three approved diagnostics.
 - Deferred to 1b: Building reference-dependent preferences, exogenous
   reference points, and loss aversion as a model.
 - Deferred to 1c: Expectations-based or endogenous reference points.
@@ -70,6 +74,8 @@ Editorial placeholder.
 - Non-goals:
   - Do not write learner-facing 1a notebook prose in this milestone.
   - Do not turn 1a into a broad survey of non-EU models.
+  - Do not present reference points, loss aversion, probability weighting, or
+    any other later model as the answer to 1a's diagnoses.
   - Do not build prospect theory or cumulative prospect theory inside 1a.
   - Do not make Allais a bridge to probability weighting in 1a.
 
@@ -125,13 +131,12 @@ Editorial placeholder.
 
 ## 1a to 1b Transition
 
-- How 1a should end: 1a ends by extracting desiderata for the next model, not
-  by constructing that model. The main ending should emphasize that
-  final-wealth evaluation is too coarse for local risky-choice patterns.
-- What requirements 1a should create for 1b: The next model should let outcomes
-  be evaluated locally as gains and losses around a reference point, and should
-  make room for loss aversion without forcing implausible global wealth
-  curvature.
+- How 1a should end: 1a ends by organizing the failures of expected utility as
+  unresolved diagnoses. It should not present a new model, derive reference
+  dependence, or make a solution claim.
+- Allowed roadmap sentence: 1a may include one brief navigation sentence saying
+  that later notebooks will ask how alternative models handle local gains and
+  losses, reference points, and probability-side distortions.
 - What 1a must not pre-emptively build: 1a must not build reference-dependent
   preferences, exogenous reference points, expectations-based reference points,
-  or probability weighting.
+  probability weighting, or prospect theory.
