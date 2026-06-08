@@ -127,25 +127,317 @@ reopens the source decision.
 
 ## Notebook Section Outline
 
-Map the approved architecture to the English notebook template. Keep this as an
-outline until the v0.2-beta learner-facing notebook draft begins.
+Map the approved architecture to the English notebook template. Keep this as a
+high-granularity outline until the v0.2-beta learner-facing notebook draft
+begins. The outline may name planned points, questions, source dependencies, and
+expected outputs, but it must not become full notebook prose.
 
-| Notebook Template Section | Planned 1a Role | Drafting Status |
-|---|---|---|
-| Abstract | TBD | Not drafted |
-| Learning Goals | TBD | Not drafted |
-| Prerequisites | TBD | Not drafted |
-| Opening Problem | TBD | Not drafted |
-| Baseline Model | TBD | Not drafted |
-| Key Tension | TBD | Not drafted |
-| Core Idea | TBD | Not drafted |
-| Guided Example / Experiment | TBD | Not drafted |
-| What This Teaches Us | TBD | Not drafted |
-| Key Takeaways | TBD | Not drafted |
-| Glossary | TBD | Not drafted |
-| Source Map | TBD | Not drafted |
-| References | TBD | Not drafted |
-| Related | TBD | Not drafted |
+### Abstract
+
+- Diagnostic route summary
+  - Purpose: preview the notebook's path from expected utility as the risky-choice
+    baseline to the three approved diagnoses of its limits.
+  - Main claim or question: expected utility is a powerful baseline, but
+    small-stakes risk aversion, aggregation, and Allais-style comparisons expose
+    limits of final-wealth expected utility.
+  - Source dependence: approved storyline from issue #17; approved source-set and
+    boundary decisions from issues #18 and #19.
+  - Expected output: a short beta-stage summary of the route, not a full argument
+    or solution claim.
+
+### Learning Goals
+
+- Explain the minimal expected-utility baseline
+  - Purpose: set the learner expectation that 1a starts from EU as the benchmark.
+  - Main claim or question: how does EU evaluate risky choices through lotteries,
+    probabilities, and utility over final wealth?
+  - Source dependence: Bernoulli 1738; Bernoulli 1954; von Neumann and
+    Morgenstern 1944; Mas-Colell, Whinston, and Green 1995.
+  - Expected output: one ability target about explaining the minimal EU baseline.
+- Identify the small-stakes risk-aversion problem
+  - Purpose: make Rabin-style calibration one of the explicit learner outcomes.
+  - Main claim or question: why is final-wealth curvature implausible as an
+    explanation for ordinary local risk aversion?
+  - Source dependence: Pratt 1964; Rabin 2000; Rabin and Thaler 2001.
+  - Expected output: one ability target about recognizing the small-stakes
+    diagnosis.
+- Distinguish isolated from aggregated risk evaluation
+  - Purpose: make Samuelson's aggregation diagnosis a separate learner outcome.
+  - Main claim or question: why can the unit of risk evaluation matter for choice?
+  - Source dependence: Samuelson 1963.
+  - Expected output: one ability target about comparing isolated and aggregated
+    gambles.
+- Explain the Allais pressure on independence
+  - Purpose: make the Allais family a separate learner outcome without turning
+    1a into probability weighting.
+  - Main claim or question: how do common consequence and common ratio comparisons
+    challenge EU's independence structure?
+  - Source dependence: Allais 1953b; Samuelson 1952.
+  - Expected output: one ability target about the Allais independence diagnosis.
+
+### Prerequisites
+
+- Introductory microeconomics: utility, preferences, marginal reasoning.
+- Probability theory / statistics basics: probabilities, expected value, simple
+  lotteries.
+- Basic calculus: curvature and concavity intuition.
+- Mathematical notation for models: simple equations and payoff-probability
+  tables.
+
+No prior behavioral economics is required.
+
+### Opening Problem
+
+- Motivation for testing the baseline
+  - Purpose: create the reason to examine EU's limits before introducing the
+    formal baseline.
+  - Main claim or question: if EU is the standard baseline for risky choice, can
+    it explain ordinary risk attitudes, aggregation judgments, and classic
+    lottery-choice reversals?
+  - Source dependence: approved storyline from issue #17; light baseline context
+    from Bernoulli 1738, Bernoulli 1954, and von Neumann and Morgenstern 1944 if
+    needed.
+  - Expected output: a short motivational opening that names the three challenge
+    directions without working through them.
+
+### Baseline Model
+
+- Expected value to expected utility
+  - Purpose: establish why utility enters a model of risky choice.
+  - Main claim or question: expected value is too crude when outcomes differ in
+    utility, so the baseline evaluates expected utility rather than expected
+    monetary value alone.
+  - Source dependence: Bernoulli 1738; Bernoulli 1954.
+  - Expected output: compact historical and conceptual setup, not a long
+    treatment of the St. Petersburg problem.
+- Modern lottery representation
+  - Purpose: define the minimal benchmark used by the later diagnoses.
+  - Main claim or question: EU evaluates lotteries through probabilities and
+    utilities over final wealth.
+  - Source dependence: von Neumann and Morgenstern 1944; Mas-Colell, Whinston,
+    and Green 1995.
+  - Expected output: concise model statement with only equations that clarify the
+    later argument.
+- Wealth curvature as the standard risk-aversion explanation
+  - Purpose: set up the final-wealth curvature account that the first diagnosis
+    will pressure.
+  - Main claim or question: concavity of utility over final wealth is the standard
+    EU representation of risk aversion, but 1a should keep this background short.
+  - Source dependence: Pratt 1964; Markowitz 1952; Friedman and Savage 1948.
+  - Expected output: bounded curvature setup without expanding into a full
+    risk-aversion theory.
+
+### Key Tension
+
+- Final-wealth curvature versus local risk attitudes
+  - Purpose: preview the first diagnostic tension.
+  - Main claim or question: can global utility curvature explain ordinary
+    small-stakes risk aversion without implausible large-stakes implications?
+  - Source dependence: Rabin 2000; Rabin and Thaler 2001.
+  - Expected output: short tension statement that prepares the guided example.
+- Isolated gamble versus aggregated sequence
+  - Purpose: preview the second diagnostic tension.
+  - Main claim or question: why might a gamble rejected in isolation look
+    different when evaluated as part of a repeated or aggregated sequence?
+  - Source dependence: Samuelson 1963.
+  - Expected output: short tension statement that keeps the evaluation-unit issue
+    distinct from curvature.
+- Independence structure versus Allais comparisons
+  - Purpose: preview the third diagnostic tension.
+  - Main claim or question: why do common consequence and common ratio comparisons
+    put pressure on EU's independence structure?
+  - Source dependence: Allais 1953b; Samuelson 1952.
+  - Expected output: short tension statement that does not turn Allais into a
+    probability-weighting lesson.
+
+### Core Idea
+
+- Three diagnoses, not three isolated curiosities
+  - Purpose: organize the approved failures into one conceptual lens before the
+    examples.
+  - Main claim or question: small-stakes risk aversion, aggregation, and Allais
+    comparisons diagnose different limits of EU: curvature, evaluation unit, and
+    independence.
+  - Source dependence: approved storyline from issue #17; approved boundaries
+    from issue #19.
+  - Expected output: an organizing frame for the rest of 1a, not a new model.
+- No solution model inside 1a
+  - Purpose: protect the boundary between diagnosis in 1a and later model
+    construction.
+  - Main claim or question: what should 1a leave unresolved rather than explain
+    with reference dependence, loss aversion, or probability weighting?
+  - Source dependence: content-boundary decision from issue #19.
+  - Expected output: a clear diagnostic stance that may support a brief roadmap
+    sentence later.
+
+### Guided Example / Experiment
+
+- Rabin-style small-stakes calibration check
+  - Purpose: show why final-wealth curvature cannot plausibly carry ordinary
+    local risk aversion.
+  - Main claim or question: what large-stakes implications follow if EU curvature
+    is calibrated to reject modest favorable gambles?
+  - Source dependence: Rabin 2000; Rabin and Thaler 2001; Pratt 1964 as
+    background.
+  - Expected output: planned example slot for the small-stakes diagnosis; exact
+    numbers, figures, code, or widgets belong to issue #21.
+- Samuelson aggregation contrast
+  - Purpose: show that the evaluation unit matters for risky choice.
+  - Main claim or question: how can the same type of gamble look different when
+    considered alone versus as part of an aggregated sequence?
+  - Source dependence: Samuelson 1963.
+  - Expected output: planned example slot for isolated-versus-aggregated
+    evaluation; exact design choices belong to issue #21.
+- Allais common consequence and common ratio comparisons
+  - Purpose: show that the Allais family pressures the independence structure of
+    EU.
+  - Main claim or question: how do common consequence and common ratio comparisons
+    reveal the independence failure?
+  - Source dependence: Allais 1953b; Samuelson 1952.
+  - Expected output: planned example slot for the Allais diagnosis; exact lottery
+    tables, figures, or code belong to issue #21.
+
+### What This Teaches Us
+
+- Curvature diagnosis
+  - Purpose: synthesize what the small-stakes example adds beyond the baseline
+    model.
+  - Main claim or question: final-wealth curvature is too coarse to explain
+    ordinary local risk attitudes.
+  - Source dependence: Rabin 2000; Rabin and Thaler 2001; Pratt 1964.
+  - Expected output: short synthesis target, not a takeaway list.
+- Evaluation-unit diagnosis
+  - Purpose: synthesize what the aggregation example adds.
+  - Main claim or question: risk evaluation can depend on whether a gamble is
+    considered in isolation or as an aggregate.
+  - Source dependence: Samuelson 1963.
+  - Expected output: short synthesis target, distinct from the final key
+    takeaways.
+- Independence diagnosis
+  - Purpose: synthesize what the Allais example adds.
+  - Main claim or question: EU's independence structure is vulnerable in classic
+    lottery comparisons.
+  - Source dependence: Allais 1953b; Samuelson 1952.
+  - Expected output: short synthesis target that does not introduce probability
+    weighting.
+- Desiderata for later models
+  - Purpose: explain why the notebook ends with unresolved diagnoses.
+  - Main claim or question: later models should address local gains and losses,
+    reference points, or probability-side distortions, but 1a does not build
+    those models.
+  - Source dependence: content-boundary decision from issue #19.
+  - Expected output: bounded transition logic into later notebooks.
+
+### Key Takeaways
+
+Key takeaways should mirror the learning goals as conclusion-style statements,
+not repeat the learning goals as ability statements. They should not introduce
+new claims; they should compress the prior synthesis.
+
+- Expected-utility baseline
+  - Purpose: close the baseline thread.
+  - Main claim or question: EU is the baseline model for risky choice, not the
+    endpoint of the chapter's explanation.
+  - Source dependence: Bernoulli 1738; Bernoulli 1954; von Neumann and
+    Morgenstern 1944; Mas-Colell, Whinston, and Green 1995.
+  - Expected output: one concise conclusion-style takeaway.
+- Small-stakes diagnosis
+  - Purpose: close the curvature thread.
+  - Main claim or question: final-wealth curvature cannot plausibly explain
+    ordinary small-stakes risk aversion.
+  - Source dependence: Rabin 2000; Rabin and Thaler 2001.
+  - Expected output: one concise conclusion-style takeaway.
+- Aggregation diagnosis
+  - Purpose: close the evaluation-unit thread.
+  - Main claim or question: the unit of evaluation matters for risky choice.
+  - Source dependence: Samuelson 1963.
+  - Expected output: one concise conclusion-style takeaway.
+- Independence diagnosis
+  - Purpose: close the Allais thread.
+  - Main claim or question: Allais-style comparisons pressure EU's independence
+    structure.
+  - Source dependence: Allais 1953b; Samuelson 1952.
+  - Expected output: one concise conclusion-style takeaway.
+
+### Glossary
+
+List candidate glossary terms only; do not write definitions in this outline.
+
+- expected utility
+- lottery
+- final wealth
+- risk aversion
+- utility curvature
+- small-stakes risk aversion
+- aggregation
+- independence axiom
+- common consequence
+- common ratio
+
+### Source Map
+
+- Expected-utility baseline components
+  - Purpose: map the baseline setup to its approved sources.
+  - Main claim or question: which sources support the historical and modern EU
+    benchmark?
+  - Source dependence: Bernoulli 1738; Bernoulli 1954; von Neumann and
+    Morgenstern 1944; Mas-Colell, Whinston, and Green 1995.
+  - Expected output: source-map rows for the expected-value-to-utility move and
+    the modern lottery benchmark.
+- Wealth-curvature background
+  - Purpose: map the risk-aversion background without expanding it into a full
+    theory unit.
+  - Main claim or question: which sources support the limited curvature setup?
+  - Source dependence: Pratt 1964; Markowitz 1952; Friedman and Savage 1948.
+  - Expected output: source-map row for bounded curvature background.
+- Approved diagnostic examples
+  - Purpose: map each diagnostic example to the approved source set.
+  - Main claim or question: which source carries each of the three approved
+    failure diagnoses?
+  - Source dependence: Rabin 2000; Rabin and Thaler 2001; Samuelson 1963; Allais
+    1953b; Samuelson 1952.
+  - Expected output: source-map rows for small-stakes risk aversion, aggregation,
+    and independence failure.
+- Original teaching design
+  - Purpose: reserve space for project-generated examples, figures, code, or
+    simulation design if issue #21 approves them.
+  - Main claim or question: what original components directly illustrate an
+    approved diagnostic?
+  - Source dependence: Almost Behavioral Economics original implementation.
+  - Expected output: source-map row for original teaching design, used only if
+    the beta draft includes such components.
+
+### References
+
+- Approved source-set reference list
+  - Purpose: ensure the beta draft's references stay tied to cited, mentioned,
+    or used sources.
+  - Main claim or question: which approved 1a sources were actually used in the
+    notebook?
+  - Source dependence: `references/ch01_1a.bib`; source-set decision from issue
+    #18.
+  - Expected output: references section limited to sources actually cited,
+    mentioned, or used in the beta draft, with new core sources requiring human
+    editor approval.
+
+### Related
+
+- Later reference-dependent models
+  - Purpose: identify a conceptually related later direction without explaining
+    it inside 1a.
+  - Main claim or question: should the beta draft briefly point to later
+    reference-dependent treatments of local gains, losses, and reference points?
+  - Source dependence: content-boundary decision from issue #19.
+  - Expected output: possible related-direction note for 1b and 1c if genuinely
+    useful; no concrete link commitment in this outline.
+- Later probability-side models
+  - Purpose: identify the probability-side follow-up without making Allais a
+    probability-weighting lesson.
+  - Main claim or question: should the beta draft briefly point to later
+    probability-side treatments after the Allais diagnosis?
+  - Source dependence: content-boundary decision from issue #19.
+  - Expected output: possible related-direction note for 1d if genuinely useful;
+    no explanation of probability weighting inside 1a.
 
 ## Component Plan
 
