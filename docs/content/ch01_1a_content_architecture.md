@@ -120,10 +120,11 @@ reopens the source decision.
 | Expected utility introduction | Move from expected value toward utility-based risk evaluation and motivate why EU is the natural baseline. | Bernoulli 1738; Bernoulli 1954 | core; support | Entries added to `references/ch01_1a.bib`. |
 | Modern EU baseline | Define the expected-utility benchmark over lotteries at the level needed for 1a. | von Neumann and Morgenstern 1944; Mas-Colell, Whinston, and Green 1995 | core; support | Entries added to `references/ch01_1a.bib`. |
 | Wealth curvature background | Explain why risk aversion is usually represented through utility curvature, without expanding into a full risk-aversion theory. | Pratt 1964; Markowitz 1952; Friedman and Savage 1948 | support; support; extension | Entries added to `references/ch01_1a.bib`. |
-| Small-stakes risk aversion | Show that final-wealth curvature cannot plausibly explain ordinary local risk attitudes. | Rabin 2000; Rabin and Thaler 2001 | core; support | Entries added to `references/ch01_1a.bib`. |
-| Aggregation paradox | Show that the evaluation unit matters: an isolated gamble and an aggregated sequence need not receive the same treatment. | Samuelson 1963 | core | Entry added to `references/ch01_1a.bib`. |
-| Independence failure | Show that common consequence and common ratio comparisons expose the independence-structure failure. | Allais 1953b; Samuelson 1952 | core; support | Entries added to `references/ch01_1a.bib`. |
-| Figure, code, simulation, or teaching design | Use project-generated examples only if they directly illustrate one approved diagnostic. | Almost Behavioral Economics original implementation | original | No external source required unless the component adapts a listed source. |
+| Rabin calibration example | Use a small favorable 50-50 gamble and a calibration implication table to show why final-wealth curvature cannot plausibly explain ordinary local risk attitudes. | Rabin 2000; Rabin and Thaler 2001; Almost Behavioral Economics original teaching table | core; support; original | Static teaching component approved for beta planning; exact prose and final numerical detail remain beta-stage work. |
+| Samuelson aggregation contrast | Use an isolated-gamble row and a minimal aggregated-sequence distribution table to show that the evaluation unit matters. | Samuelson 1963; Almost Behavioral Economics original teaching table | core; original | Static teaching component approved for beta planning; exact distribution formatting remains beta-stage work. |
+| Allais comparison tables | Use one two-part lottery table for common consequence and common ratio comparisons, with normalized abstract payoffs, to expose the independence-structure failure. | Allais 1953b; Samuelson 1952; Almost Behavioral Economics original teaching table | core; support; original | Static teaching component approved for beta planning; exact payoff normalization remains beta-stage work. |
+| Lightweight dynamic table | Allow a beta-stage toggle or expandable table only if it directly clarifies an approved diagnostic and has a complete static fallback. | Almost Behavioral Economics original implementation | original | Optional; not required for beta. |
+| Code, widgets, simulations, summary figure, or full proofs | Do not carry these forward by default. They may be reconsidered only if the human editor reopens the component decision. | Not needed | not needed | Explicitly excluded from beta planning by default. |
 
 ## Notebook Section Outline
 
@@ -441,13 +442,82 @@ List candidate glossary terms only; do not write definitions in this outline.
 
 ## Component Plan
 
-Editorial placeholder.
+The 1a component plan should use static teaching components by default. Each
+component must serve one approved diagnosis in the storyline. Components should
+not make 1a into a computational behavioral economics notebook, and components
+that are not needed should not be carried into beta by default.
 
-- Examples: TBD by the human editor.
-- Figures: TBD by the human editor.
-- Code or simulations: TBD by the human editor.
-- Glossary entries: TBD by the human editor.
-- Citation and reference checks: TBD after source approval.
+### Required Examples
+
+- Rabin-style calibration example
+  - Status: required.
+  - Form: static payoff and calibration tables.
+  - Pedagogical purpose: show the calibration logic that makes final-wealth
+    curvature an implausible explanation for ordinary small-stakes risk
+    aversion.
+  - Planned design: start from an abstract 50-50 favorable gamble such as
+    `lose 100 / gain 110`, then show the small-stakes rejection, the local
+    curvature implication, and the resulting implausible large-stakes
+    implication.
+  - Source or origin: Rabin 2000 as core; Rabin and Thaler 2001 as support;
+    project-generated teaching tables as original presentation.
+  - Not needed: full theorem proof, general calibration theorem derivation,
+    parameter sliders, or simulation.
+- Samuelson aggregation contrast
+  - Status: required.
+  - Form: static isolated-versus-aggregated distribution table.
+  - Pedagogical purpose: show that the unit of risk evaluation matters; an
+    isolated gamble and an aggregated sequence need not invite the same
+    judgment.
+  - Planned design: use the Samuelson-style 50-50 structure
+    `lose 100 / gain 200`, then contrast one isolated gamble with a minimal
+    distribution table for many independent repetitions.
+  - Source or origin: Samuelson 1963 as core; project-generated teaching table
+    as original presentation.
+  - Not needed: full probability derivation, simulation, or interactive
+    aggregation widget.
+- Allais comparison tables
+  - Status: required.
+  - Form: one static two-part lottery table.
+  - Pedagogical purpose: show that the common consequence and common ratio
+    versions of the Allais paradox put pressure on EU's independence
+    structure.
+  - Planned design: place common consequence in the first part and common ratio
+    in the second part, using normalized abstract payoffs rather than historical
+    currency labels.
+  - Source or origin: Allais 1953b as core; Samuelson 1952 as support for the
+    independence axiom; project-generated teaching table as original
+    presentation.
+  - Not needed: probability-weighting explanation, dynamic calculation, or a
+    separate visual for each Allais variant.
+
+### Optional Components
+
+- Lightweight dynamic table
+  - Status: optional for beta only.
+  - Form: a toggle, expandable table, or other light table interaction.
+  - Use condition: include only if it clarifies one approved diagnostic and the
+    static version already carries the full argument.
+  - Required fallback: the learner-facing notebook must remain complete if the
+    dynamic behavior is unavailable.
+
+### Components Not Needed
+
+- Summary figure or summary table: not needed. The three required examples
+  should carry the diagnostic structure without an extra synthesis visual.
+- Code cells, widgets, simulations, dashboards, and parameter sliders: not
+  needed by default. Code may be reconsidered only if the beta draft reveals a
+  specific explanatory need.
+- Full mathematical proofs: not needed. 1a should teach the diagnostic force of
+  the examples, not prove the general theorems.
+
+### Glossary and Citation Checks
+
+- Glossary entries remain the candidate terms listed in the outline unless beta
+  drafting reveals that a component requires a new local term.
+- Citation and reference checks should verify that adapted component structures
+  are tied to Rabin 2000, Rabin and Thaler 2001, Samuelson 1963, Allais 1953b,
+  and Samuelson 1952 as planned.
 
 ## 1a to 1b Transition
 
