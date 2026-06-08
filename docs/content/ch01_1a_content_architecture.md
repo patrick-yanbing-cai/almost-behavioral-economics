@@ -19,7 +19,7 @@ Editorial placeholder.
 - Proposed core question: What does expected utility provide as a baseline
   model of risky choice, and what do its failures reveal about the limits of
   explaining risky choice through final wealth?
-- Decision status: proposed from human-editor discussion; pending PR review.
+- Decision status: approved through merged PR #26 for issue #17.
 
 ## Storyline
 
@@ -50,7 +50,7 @@ Editorial placeholder.
      consequence and common ratio versions should sit one level below the
      Allais family and should show that EU's independence structure fails in
      important lottery comparisons.
-- Decision status: proposed from human-editor discussion; pending PR review.
+- Decision status: approved through merged PR #26 for issue #17.
 
 ## Content Boundaries
 
@@ -81,21 +81,49 @@ Editorial placeholder.
 
 ## Source Set
 
-Editorial placeholder.
+The approved 1a source set is intentionally limited to sources needed by the
+approved storyline: expected utility baseline, small-stakes risk aversion,
+Samuelson aggregation, and Allais independence failure.
 
-- Core sources: TBD by the human editor.
-- Supporting sources: TBD by the human editor.
-- Sources explicitly deferred: TBD by the human editor.
-- `references.bib` update needed: TBD after source approval.
+The 1a-specific bibliography file is `references/ch01_1a.bib`. The top-level
+`references.bib` file may remain as a shared or legacy project bibliography, but
+1a source approval is tracked here and in `references/ch01_1a.bib`.
+
+New beta-stage 1a core sources require human editor approval in the linked issue
+or pull request before they are added to the notebook draft.
+
+| Source | Planned Use | Source Role | Verification Status |
+|---|---|---|---|
+| Bernoulli 1738 | Anchor the historical expected-utility move from expected value toward utility-based risk evaluation. | core | Selected from human-supplied reference list; entry added to `references/ch01_1a.bib`. |
+| Bernoulli 1954 | Provide the readable English translation for the Bernoulli introduction and St. Petersburg discussion. | support | Selected from human-supplied reference list; entry added to `references/ch01_1a.bib`. |
+| von Neumann and Morgenstern 1944 | Anchor the modern expected-utility baseline over lotteries. | core | Selected from human-supplied reference list; entry added to `references/ch01_1a.bib`. |
+| Mas-Colell, Whinston, and Green 1995 | Provide a standard textbook reference for lotteries, preferences, and expected-utility representation. | support | Selected from human-supplied reference list; entry added to `references/ch01_1a.bib`. |
+| Pratt 1964 | Support the distinction between risk aversion in the small and in the large without turning it into a technical teaching unit. | support | Selected from human-supplied reference list; entry added to `references/ch01_1a.bib`. |
+| Rabin 2000 | Carry the small-stakes calibration diagnosis against final-wealth curvature. | core | Selected from human-supplied reference list; entry added to `references/ch01_1a.bib`. |
+| Rabin and Thaler 2001 | Provide teaching support for the economic intuition behind the Rabin calibration result. | support | Selected from human-supplied reference list; entry added to `references/ch01_1a.bib`. |
+| Samuelson 1952 | Support the role of the independence axiom in the expected-utility structure used by the Allais diagnosis. | support | Selected from human-supplied reference list; entry added to `references/ch01_1a.bib`. |
+| Samuelson 1963 | Carry the aggregation or fallacy-of-large-numbers diagnosis. | core | Selected from human-supplied reference list; entry added to `references/ch01_1a.bib`. |
+| Allais 1953b | Carry the common consequence and common ratio diagnosis of independence failure. | core | Selected from human-supplied reference list; entry added to `references/ch01_1a.bib`. |
+| Markowitz 1952 | Support the narrow point that wealth-utility shape is not simply a global concavity story. | support | Selected from human-supplied reference list; entry added to `references/ch01_1a.bib`. |
+| Friedman and Savage 1948 | Provide optional background on classic wealth-utility explanations of risk attitudes. | extension | Selected from human-supplied reference list; entry added to `references/ch01_1a.bib`. |
+
+Boundary note: prospect theory, reference-dependent preferences, probability
+weighting, rank-dependent utility, subjective expected utility, experimental
+elicitation methods, behavioral-economics surveys, and reference-dependent
+applications are not part of the approved 1a source set unless the human editor
+reopens the source decision.
 
 ## Source Map Skeleton
 
 | Component | Planned Use | Source or Origin | Source Role | Verification Status |
 |---|---|---|---|---|
-| Main theoretical component | TBD | TBD | TBD | Not verified |
-| Example or empirical pattern | TBD | TBD | TBD | Not verified |
-| Figure, code, simulation, or teaching design | TBD | TBD | TBD | Not verified |
-| Transition or related extension | TBD | TBD | TBD | Not verified |
+| Expected utility introduction | Move from expected value toward utility-based risk evaluation and motivate why EU is the natural baseline. | Bernoulli 1738; Bernoulli 1954 | core; support | Entries added to `references/ch01_1a.bib`. |
+| Modern EU baseline | Define the expected-utility benchmark over lotteries at the level needed for 1a. | von Neumann and Morgenstern 1944; Mas-Colell, Whinston, and Green 1995 | core; support | Entries added to `references/ch01_1a.bib`. |
+| Wealth curvature background | Explain why risk aversion is usually represented through utility curvature, without expanding into a full risk-aversion theory. | Pratt 1964; Markowitz 1952; Friedman and Savage 1948 | support; support; extension | Entries added to `references/ch01_1a.bib`. |
+| Small-stakes risk aversion | Show that final-wealth curvature cannot plausibly explain ordinary local risk attitudes. | Rabin 2000; Rabin and Thaler 2001 | core; support | Entries added to `references/ch01_1a.bib`. |
+| Aggregation paradox | Show that the evaluation unit matters: an isolated gamble and an aggregated sequence need not receive the same treatment. | Samuelson 1963 | core | Entry added to `references/ch01_1a.bib`. |
+| Independence failure | Show that common consequence and common ratio comparisons expose the independence-structure failure. | Allais 1953b; Samuelson 1952 | core; support | Entries added to `references/ch01_1a.bib`. |
+| Figure, code, simulation, or teaching design | Use project-generated examples only if they directly illustrate one approved diagnostic. | Almost Behavioral Economics original implementation | original | No external source required unless the component adapts a listed source. |
 
 ## Notebook Section Outline
 

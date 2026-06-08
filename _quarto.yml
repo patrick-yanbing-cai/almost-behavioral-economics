@@ -63,7 +63,9 @@ website:
           - text: "Production Protocol"
             href: en/docs/production_protocol.qmd
 
-bibliography: references.bib
+bibliography:
+  - references.bib
+  - references/ch01_1a.bib
 
 format:
   html:
