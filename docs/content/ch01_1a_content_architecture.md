@@ -321,13 +321,12 @@ No prior behavioral economics is required.
   - Source dependence: Allais 1953b; Samuelson 1952.
   - Expected output: short synthesis target that does not introduce probability
     weighting.
-- Desiderata for later models
+- Ending stance for later notebooks
   - Purpose: explain why the notebook ends with unresolved diagnoses.
-  - Main claim or question: later models should address local gains and losses,
-    reference points, or probability-side distortions, but 1a does not build
-    those models.
+  - Main claim or question: how should 1a close the parallel diagnoses while
+    leaving later notebooks to continue the chapter's model-building work?
   - Source dependence: content-boundary decision from issue #19.
-  - Expected output: bounded transition logic into later notebooks.
+  - Expected output: bounded ending logic and light chapter navigation.
 
 ### Key Takeaways
 
@@ -519,14 +518,16 @@ that are not needed should not be carried into beta by default.
   are tied to Rabin 2000, Rabin and Thaler 2001, Samuelson 1963, Allais 1953b,
   and Samuelson 1952 as planned.
 
-## 1a to 1b Transition
+## 1a Ending Stance
 
-- How 1a should end: 1a ends by organizing the failures of expected utility as
-  unresolved diagnoses. It should not present a new model, derive reference
-  dependence, or make a solution claim.
-- Allowed roadmap sentence: 1a may include one brief navigation sentence saying
-  that later notebooks will ask how alternative models handle local gains and
-  losses, reference points, and probability-side distortions.
+- How 1a should end: 1a ends by organizing the three failures of expected
+  utility as parallel unresolved diagnoses. It should close with the claim that
+  expected utility remains the baseline, but risky choice needs explanations
+  that track more than expected utility over final wealth.
+- Chapter navigation: 1a may include one brief navigation sentence saying that
+  the next notebook begins with reference points and gains/losses as one way the
+  chapter starts moving beyond final-wealth expected utility; later notebooks
+  continue the chapter's treatment of expectations and probability-side issues.
 - What 1a must not pre-emptively build: 1a must not build reference-dependent
   preferences, exogenous reference points, expectations-based reference points,
   probability weighting, or prospect theory.
